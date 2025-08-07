@@ -12,7 +12,7 @@ x=[0,1,2]
 store_his=[]
 
 for i in x:
-    hist=cv2.calcHist([img],[i],None,[256],[0,266])
+    hist=cv2.calcHist([img],[i],None,[256],[0,266])   ### loop i as 1,2,3
     store_his.append(hist)
     
     
