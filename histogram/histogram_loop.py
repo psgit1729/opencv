@@ -26,12 +26,5 @@ plt.plot(store_his[2],color="red")
 plt.show()
 
 
-
-
-## plot the histogram
-
-
-
-
 cv2.waitKey(0)
 cv2.destroyAllWindows()
