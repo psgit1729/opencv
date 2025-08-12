@@ -1,13 +1,17 @@
 import cv2
 
-img=cv2.imread("image.png")
-cv2.imshow("test",img)
+read_img=cv2.imread("rahul.png")
+
+img=cv2.resize(read_img,(800,800),interpolation=cv2.INTER_AREA)
+
+
+
+
+cv2.imshow("original",img)
 
 cv2.waitKey(0)
 
-cv2.destroyAllWindows
-
-save_img=cv2.imwrite("new.png",img)
+cv2.destroyAllWindows()
 
 
 
